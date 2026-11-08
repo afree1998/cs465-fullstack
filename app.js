@@ -29,6 +29,7 @@ app.use('/travel', travelRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
+  console.log("404 - Route: ", req.originalUrl);
   next(createError(404));
 });
 
