@@ -328,7 +328,7 @@ hr {
 }
 /** Dive Site **/
 #sites li {
-	padding-bottom: 0;
+	padding-bottom: 0px;
 }
 #sites li img {
 	float: right;
